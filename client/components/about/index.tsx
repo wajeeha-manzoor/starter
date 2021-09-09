@@ -3,16 +3,6 @@ import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { Heading, HeadingSmall } from "../styled/about";
 import ProgressBar from "@ramonak/react-progress-bar";
-import {
-  Rectangle,
-  Circle,
-  Ellipse,
-  Line,
-  Polyline,
-  CornerBox,
-  Triangle,
-  Hexagone,
-} from "react-shapes";
 
 const About = () => {
   return (
@@ -56,10 +46,10 @@ const About = () => {
           display: "flex",
           textAlign: "center",
           justifyContent: "space-between",
-          marginBottom: "12px",
+          marginBottom: "100px",
         }}
       >
-        <Col style={{ flexBasis: "0", flexGrow: "1", maxWidth: "100%" }}>
+        <Col style={{ flexBasis: "0", flexGrow: 1, maxWidth: "100%" }}>
           <div>
             <span>JAVASCRIPT</span>
             <ProgressBar
@@ -121,7 +111,7 @@ const About = () => {
         <Col
           style={{
             flexBasis: "0",
-            flexGrow: "1",
+            flexGrow: 1,
             maxWidth: "100%",
           }}
         >
